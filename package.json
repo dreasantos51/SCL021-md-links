@@ -1,7 +1,46 @@
 {
-  "name": "md-links",
+  "name": "dreasantos51",
   "version": "0.1.0",
   "engines": {
     "node": ">=16.x"
+  },
+  "dependencies": {
+    "@laboratoria/curriculum-parser": "github:Laboratoria/course-parser",
+    "colors": "^1.4.0",
+    "file-system": "^2.2.2",
+    "md-links": "github:dreasantos51/SCL021-md-links",
+    "node-fetch": "^3.2.10",
+    "options": "^0.0.6",
+    "path": "^0.12.7"
+  },
+  "description": "* [1. Preámbulo](#1-preámbulo)\r * [2. Resumen del proyecto](#2-resumen-del-proyecto)\r * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)\r * [4. Consideraciones generales](#4-consideraciones-generales)\r * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)\r * [6. Entregables](#6-entregables)\r * [7. Hacker edition](#7-hacker-edition)\r * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)\r * [9. Checklist](#9-checklist)\r * [10. Achicando el problema](#10-achicando-el-problema)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": " node ./src/index.js",
+    "server": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreasantos51/SCL021-md-links.git"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "Laboratoria"
+  ],
+  "author": "Andrea Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreasantos51/SCL021-md-links/issues"
+  },
+  "bin": {
+    "mdLinks": "./src/index.js"
+  },
+  "homepage": "https://github.com/dreasantos51/SCL021-md-links#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
