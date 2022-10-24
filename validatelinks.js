@@ -20,15 +20,16 @@ const validateLinks = (url) => {
 const arrayOfLinks = [
   "https://github.com/dreasantos51",
   "https://funnyfrontend.com/introduccion-al-stack-mean-4-rutas-routing-con-nodejs-y-express/",
+  "https://github.com/users/dreasantos51/projects/1/views/3?layout=board"
 ];
-arrayOfLinks.forEach(link => {
-validateLinks(link)
-  .then(res => {
-  console.log(res)
-  })
-  .catch(err => {
-    console.log(err)
-  })
-})
+arrayOfLinks.forEach((link) => {
+  validateLinks(link)
+    .then((res) => {
+      console.log(res);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
 
 
