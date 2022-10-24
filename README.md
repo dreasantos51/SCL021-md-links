@@ -6,10 +6,10 @@ En este proyecto crearás una herramienta de línea de comando (CLI) así como t
 
 Se presentan las siguientes funciones
 
--Cambiar de una ruta relativa a absoluta
--Verificar formato .md del archivo de la ruta
--Ruta de acceso en un array
--Total de links únicos encontrados
+Cambiar de una ruta relativa a absoluta
+Verificar formato .md del archivo de la ruta
+Ruta de acceso en un array
+Total de links únicos encontrados
 
 ## Diagrama de Flujo
 ![](img/Diagrama%20de%20flujo.jpg)
